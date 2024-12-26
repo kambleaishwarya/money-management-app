@@ -6,7 +6,7 @@ body {
 }
 
 header {
-    background-color: #4CAF50;
+    background-color: #633b85;
     color: white;
     text-align: center;
     padding: 20px;
@@ -18,7 +18,7 @@ h1 {
 
 .dashboard {
     padding: 20px;
-    background-color: white;
+    background-color: rgb(158, 135, 135);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin: 20px;
 }
@@ -48,7 +48,7 @@ h1 {
 .transactions {
     padding: 20px;
     margin: 20px;
-    background-color: white;
+    background-color: rgb(158, 135, 135);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
@@ -74,7 +74,7 @@ h1 {
 .budget {
     padding: 20px;
     margin: 20px;
-    background-color: white;
+    background-color:rgb(158, 135, 135);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
@@ -94,7 +94,7 @@ h1 {
 }
 
 footer {
-    background-color: #333;
+    background-color: #633b85;
     color: white;
     text-align: center;
     padding: 10px;
@@ -105,4 +105,21 @@ footer {
 
 footer p {
     margin: 0;
+}
+
+.savings {
+    padding: 20px;
+    margin: 20px;
+    background-color:rgb(161, 214, 117);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+
+}
+
+.debt {
+    padding: 20px;
+    margin: 20px;
+    background-color:rgb(167, 42, 42);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
 }
