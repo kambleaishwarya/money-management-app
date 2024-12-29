@@ -1,125 +1,73 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f9f9f9;
+    color: #4a4a4a;
 }
 
+/* Header */
 header {
-    background-color: #633b85;
+    background-color: #00509e;
     color: white;
-    text-align: center;
-    padding: 20px;
-}
-
-h1 {
-    font-size: 2.5rem;
-}
-
-.dashboard {
-    padding: 20px;
-    background-color: rgb(158, 135, 135);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin: 20px;
-}
-
-.dashboard h2 {
-    margin-bottom: 20px;
-}
-
-.summary {
     display: flex;
-    justify-content: space-around;
-    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    border-bottom: 4px solid #ff6f61;
 }
 
-.summary > div {
-    background-color: #f4f4f4;
-    padding: 20px;
-    border-radius: 8px;
-    width: 30%;
-    text-align: center;
-}
-
-.summary h3 {
-    font-size: 1.2rem;
-}
-
-.transactions {
-    padding: 20px;
-    margin: 20px;
-    background-color: rgb(158, 135, 135);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.transactions table {
-    width: 100%;
-    border-collapse: collapse;
-}
-
-.transactions th, .transactions td {
-    padding: 10px;
-    text-align: center;
-    border: 1px solid #ddd;
-}
-
-.transactions th {
-    background-color: #f4f4f4;
-}
-
-.transactions td {
-    background-color: #fff;
-}
-
-.budget {
-    padding: 20px;
-    margin: 20px;
-    background-color:rgb(158, 135, 135);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.budget .category {
-    background-color: #f4f4f4;
-    margin-bottom: 10px;
-    padding: 15px;
-    border-radius: 8px;
-}
-
-.budget h3 {
+header h1 {
+    font-size: 3rem;
+    font-weight: 600;
     margin: 0;
+    text-align: center;
+    flex-grow: 1;
 }
 
-.budget p {
-    font-size: 1.1rem;
-}
-
-footer {
-    background-color: #633b85;
+header .resume-btn {
+    position: absolute;
+    right: 30px;
+    padding: 15px 30px;
+    background-color: #ff6f61;
     color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    font-size: 1.2rem;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+header .resume-btn:hover {
+    background-color: #ff4c39;
+    transform: scale(1.05);
+}
+
+/* Navbar */
+nav {
+    background-color: #333;
     text-align: center;
-    padding: 10px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+    padding: 10px 0;
 }
 
-footer p {
+nav ul {
+    list-style: none;
+    padding: 0;
     margin: 0;
+    display: flex;
+    justify-content: center;
 }
 
-.savings {
-    padding: 20px;
-    margin: 20px;
-    background-color:rgb(161, 214, 117);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-
-
+nav ul li {
+    margin: 0 15px;
 }
 
-.debt {
-    padding: 20px;
-    margin: 20px;
-    background-color:rgb(167, 42, 42);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+}
 
+nav ul li a:hover {
+    color: #ff6f61;
 }
