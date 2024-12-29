@@ -123,3 +123,38 @@ footer p {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 
 }
+
+/* Section Titles */
+section h2 {
+    font-size: 2.2rem;
+    font-weight: 600;
+    color: #4c4f4e;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #083928;
+    padding-bottom: 5px;
+}
+
+/* Section Styling */
+section {
+    padding: 25px;
+    margin: 25px;
+    background-color: white;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+
+/* Languages Section */
+.languages ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.languages ul li {
+    font-size: 1.2rem;
+    margin-bottom: 8px;
+}
+
+.languages ul li strong {
+    font-weight: bold;
+}
