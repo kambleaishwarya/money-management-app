@@ -134,3 +134,36 @@ section {
   background-color: #f4f4f4;
   font-weight: bold;
 }
+
+/* Contact Section */
+#contact .contact-icons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+#contact .contact-icons a {
+  color: #333;
+  font-size: 2rem;
+  transition: color 0.3s ease;
+}
+
+#contact .contact-icons a:hover {
+  color: #ff6f61;
+}
+
+/* Footer */
+footer {
+  background-color: #00509e;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+footer p {
+  margin: 0;
+  font-size: 1.1rem;
+}
