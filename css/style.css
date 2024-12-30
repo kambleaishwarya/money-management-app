@@ -152,6 +152,23 @@ section {
   color: #ff6f61;
 }
 
+
+/* Languages Section */
+.languages ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.languages ul li {
+  font-size: 1.2rem;
+  margin-bottom: 8px;
+}
+
+.languages ul li strong {
+  font-weight: bold;
+}
+
+
 /* Footer */
 footer {
   background-color: #00509e;
